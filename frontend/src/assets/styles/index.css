@@ -1,0 +1,88 @@
+main {
+  min-height: 80vh;
+}
+
+hr {
+  margin: auto;
+  margin-top: 3ch;
+  margin-bottom: 3ch;
+  max-width: 80%;
+}
+
+h5 {
+  margin-bottom: 1ch;
+  margin-left: 1ch;
+}
+
+.icons-index {
+  margin-right: 0.5ch;
+}
+
+.overlay-index-container {
+  padding: 5% 5% 5% 5%;
+  border-radius: 15px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url('../personnes.png');
+  background-size: 100%;
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+}
+
+.overlay-text {
+  padding-top: 3ch;
+  padding-bottom: 4ch;
+  border-radius: 15px;
+  color: rgb(43, 98, 165);
+  background-color: #ddd;
+  opacity: 0.9;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5em; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+table td,
+table th {
+  text-align: center;
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.review h2 {
+  font-size: 24px;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.review button {
+  margin-top: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
