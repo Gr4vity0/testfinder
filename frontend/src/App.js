@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import { HiWrenchScrewdriver } from "react-icons/hi2";
 import { IoGameController } from "react-icons/io5";
 import { GiBroom } from "react-icons/gi";
+import { FaHeart } from "react-icons/fa";
 
 
 
@@ -18,12 +19,12 @@ const App = () => {
           <h1>HelpFinder</h1>       
           <p>Simplifiez votre quotidien, trouvez du soutien en cas de besoin, et partagez des moments inoubliables.</p>
           <hr />
-          <h5><span className="icons-index"><IoGameController /></span>Trouver un ActivityBro gaming, sport, musique, pote de sortie...</h5>
-          <h5><span className="icons-index"><GiBroom /></span>Trouvez de l'Aide pour vos Taches ménagères (courses, ménage, cuisine, repassage...)</h5>          
-          <h5><span className="icons-index"><HiWrenchScrewdriver /></span>Trouver un HandyMan Mecanicien, travaux maison, jardinage...</h5>
+          <h5><span className="icons-index"><IoGameController /></span>Trouves ton <span className="text-warning">ActivityBro : </span> Gaming, sport, musique, pote de sortie...</h5>
+          <h5><span className="icons-index"><GiBroom /></span>Une Aide : <span className="text-warning">Taches ménagères : </span> Courses, ménage, cuisine, repassage...</h5>          
+          <h5><span className="icons-index"><HiWrenchScrewdriver /></span>Un <span className="text-warning">HandyMan : </span> Mecanicien, travaux maison, jardinage...</h5>
           <Button variant="warning" size="s">Les Annonces</Button>
           <hr />
-          <h5>Aide d'urgence, repas, hébergement, accompagnement...</h5>    
+          <h5><span className="icons-index"><FaHeart /></span><span className="text-warning">Situation d'urgence : </span> Hébergement, repas, écoute / accompagnement...</h5>    
           <Button variant="warning" size="s">Les Infos Utiles</Button>      
         </div>
       </Container>

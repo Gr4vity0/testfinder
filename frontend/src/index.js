@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 // import 'bootstrap/dist/css/bootstrap.css';
 import './assets/styles/bootstrap.custom.css';
+import './assets/fonts/Varela/Varela-Regular.ttf';
 import './assets/styles/index.css';
 import reportWebVitals from './reportWebVitals';
 
