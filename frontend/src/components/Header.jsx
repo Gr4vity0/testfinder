@@ -9,7 +9,7 @@ const Header = () => {
         <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
             <Container>
                 <Navbar.Brand href="/">
-                <img src={logo} alt="Logo HelpFinder, une" />
+                <img className="rounded logo-header" src={logo} alt="Logo HelpFinder, une" fluid />
                 HelpFinder
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

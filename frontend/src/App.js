@@ -20,7 +20,7 @@ const App = () => {
           <p>Simplifiez votre quotidien, trouvez du soutien en cas de besoin, et partagez des moments inoubliables.</p>
           <hr />
           <h5><span className="icons-index"><IoGameController /></span>Trouves ton <span className="text-warning">ActivityBro : </span> Gaming, sport, musique, pote de sortie...</h5>
-          <h5><span className="icons-index"><GiBroom /></span>Une Aide : <span className="text-warning">Taches ménagères : </span> Courses, ménage, cuisine, repassage...</h5>          
+          <h5><span className="icons-index"><GiBroom /></span>Une Aide-<span className="text-warning">Taches ménagères : </span> Courses, ménage, cuisine, repassage...</h5>          
           <h5><span className="icons-index"><HiWrenchScrewdriver /></span>Un <span className="text-warning">HandyMan : </span> Mecanicien, travaux maison, jardinage...</h5>
           <Button variant="warning" size="s">Les Annonces</Button>
           <hr />
