@@ -1,0 +1,95 @@
+const products = [
+  {
+    _id: '1',
+    name: 'Cherche Aide Repassage',
+    image: '/images/airpods.jpg',
+    description:
+      'Salut, je cherche de l\'aide\' pour faire mon repassage +- 50vêtements',
+    brand: 'Apple',
+    category: 'Menage',
+    price: 20,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    _id: '2',
+    name: 'Cherche pote de sport - course',
+    image: '/images/phone.jpg',
+    description:
+      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus',
+    brand: 'Apple',
+    category: 'Bro',
+    price: 0,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    _id: '3',
+    name: 'cherche Jardinier',
+    image: '/images/camera.jpg',
+    description:
+      'Cherche jardinier surface 20m2',
+    brand: 'Cannon',
+    category: 'Electronics',
+    price: 50,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    _id: '4',
+    name: 'Cherche aide-ménagère',
+    image: '/images/playstation.jpg',
+    description:
+      'Cherche aide-ménagère pour faire un nettoyage de printemps',
+    brand: 'Sony',
+    category: 'Electronics',
+    price: 100,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    _id: '5',
+    name: 'Cherche aide pour vider ma cave',
+    image: '/images/mouse.jpg',
+    description:
+      'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+    brand: 'Logitech',
+    category: 'Electronics',
+    price: 20,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    _id: '6',
+    name: 'Cherche 2 joueurs Fifa 24',
+    image: '/images/alexa.jpg',
+    description:
+      'Salut, je cherche quelqu\'un pour courir avec moi au cinquantenaire',
+    brand: 'Amazon',
+    category: 'Electronics',
+    price: 0,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    _id: '7',
+    name: 'table avec chaise',
+    image: '/images/table.jpg',
+    description:
+      'Salut, je me débarasse de ma table et mes chaise, je demande 5eur symboliques',
+    brand: 'Amazon',
+    category: 'Electronics',
+    price: 6,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+]
+
+export default products
